@@ -1,0 +1,14 @@
+first = input('what is your name? ')
+year = input('write you birthyear? ')
+ageA = float(2023) - float(year)
+ageB = float(2023) - float(year) + 1
+if first == "SAMIUL":
+    print(first + ' you are ' + str(ageB) + ' years old')
+if first == "Samiul":
+        print(first + ' you are ' + str(ageB) + ' years old')
+if first == "samiul":
+            print(first + ' you are ' + str(ageB) + ' years old')
+if first == "pritam":
+    print('tormarebap, ede kiror')
+else :
+    print(first +' you are ' + str(ageA) + ' years old')
